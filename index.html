@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎰 Slot Machine</h1>
+
+        <div class="slot-board">
+            <div class="reel"><img id="r1"></div>
+            <div class="reel"><img id="r2"></div>
+            <div class="reel"><img id="r3"></div>
+        </div>
+
+        <button id="spinBtn">GIRAR</button>
+
+        <h2 id="result"></h2>
+
+        <table class="stats">
+            <tr><th>Ganaste (3 iguales)</th><th>Casi (2 iguales)</th><th>Perdiste</th></tr>
+            <tr>
+                <td id="wins">0</td>
+                <td id="almost">0</td>
+                <td id="losses">0</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
